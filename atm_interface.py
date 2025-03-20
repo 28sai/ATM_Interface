@@ -82,7 +82,7 @@ class ATM:
 
 def main():
     atm = ATM()
-    print("Welcome to xAI Bank ATM")
+    print("Welcome to pata pata Bank ATM")
 
     if not atm.verify_pin():
         return
@@ -106,7 +106,7 @@ def main():
         elif choice == "5":
             atm.show_history()
         elif choice == "6":
-            print("\nThank you for using xAI Bank ATM. Goodbye!")
+            print("\nThank you for using my Bank ATM. Goodbye!")
             break
         else:
             print("Invalid choice. Please try again.")
